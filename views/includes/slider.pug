@@ -1,0 +1,18 @@
+#mySlider.carousel.slide(data-ride='carousel')
+    ul.carousel-indicators
+        li.active(data-target='#mySlider' data-slide-to='0')
+        li(data-target='#mySlider' data-slide-to='1')
+        li(data-target='#mySlider' data-slide-to='2')
+    .carousel-inner
+        .carousel-item.active
+            img.d-block.w-100(src='/img/slider1.jpg' alt='First slide')
+        .carousel-item
+            img.d-block.w-100(src='/img/slider2.jpg' alt='Second slide')
+        .carousel-item
+            img.d-block.w-100(src='/img/slider3.jpg' alt='Third slide')
+    a.carousel-control-prev(href='#mySlider' role='button' data-slide='prev')
+        span.carousel-control-prev-icon(aria-hidden='true')
+        span.sr-only Previous
+    a.carousel-control-next(href='#mySlider' role='button' data-slide='next')
+        span.carousel-control-next-icon(aria-hidden='true')
+        span.sr-only Next
