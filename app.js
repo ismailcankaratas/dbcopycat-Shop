@@ -21,6 +21,6 @@ app.use(shopRoutes);
 
 app.use(get404Page)
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log("Server started in http://localhost:3000/");
 });

@@ -5,13 +5,13 @@ exports.getIndex = (req, res, next) => {
     const products = Product.getAll();
     const categories = Category.getAll();
 
-    res.render("shop/index",
-        {
-            title: "Shopping",
-            products: products,
-            categories: categories,
-            path: '/'
-        });
+        res.render("shop/index",
+            {
+                title: "Shopping",
+                products: products,
+                categories: categories,
+                path: '/'
+            });
 }
 
 exports.getProducts = (req, res, next) => {
