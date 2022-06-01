@@ -1,1 +1,1 @@
-# Shop Site with DbCopycat <a href="[example.com](https://dbcopycat-shop.herokuapp.com/)" target="_blank">Live Demo</a>
+# Shop Site with DbCopycat <a href="https://dbcopycat-shop.herokuapp.com/" target="_blank">Live Demo</a>
