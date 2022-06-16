@@ -25,6 +25,6 @@ block content
                                 a.btn.btn-primary.btn-sm.mr-2(href=`/admin/products/${product.id}`) Edit
                                 form(action='/admin/delete-product' method='POST')
                                     input(type='hidden' value=`${product.id}` name="productid")
-                                    button(type="submit").btn.btn-danger.btn-sm Delet
+                                    button(type="submit").btn.btn-danger.btn-sm Delete
         else 
             h1 No Product

@@ -1,1 +1,53 @@
-{"products":[{"id":"10425","name":"Samsung S6","price":2000,"imageUrl":"resim1.png","description":"İyi telefon","categoryid":"1"},{"id":"10946","name":"Samsung S7","price":"5000","imageUrl":"resim2.png","description":"İyi telefon","categoryid":"1"}],"categories":[{"id":"1","name":"Telefon","description":"Telefon kategori ürünleri"},{"id":"2","name":"Bilgisayar","description":"Bilgisayar kategori ürünleri"},{"id":"3","name":"Beyaz Eşya","description":"Beyaz Eşya kategori ürünleri"}]}
+{
+    "products": [
+        {
+            "id": "10425",
+            "name": "Samsung S6",
+            "price": 2000,
+            "imageUrl": "resim1.png",
+            "description": "İyi telefon",
+            "categoryid": "1"
+        },
+        {
+            "id": "10946",
+            "name": "Samsung S7",
+            "price": 5000,
+            "imageUrl": "resim2.png",
+            "description": "İyi telefon",
+            "categoryid": "1"
+        },
+        {
+            "id": "10947",
+            "name": "Samsung S8",
+            "price": 7200,
+            "imageUrl": "resim3.png",
+            "description": "Daha İyi telefon",
+            "categoryid": "1"
+        },
+        {
+            "id": "10948",
+            "name": "Samsung S9",
+            "price": 8000,
+            "imageUrl": "resim4.png",
+            "description": "Daha daha İyi telefon",
+            "categoryid": "1"
+        }
+    ],
+    "categories": [
+        {
+            "id": "1",
+            "name": "Telefon",
+            "description": "Telefon kategori ürünleri"
+        },
+        {
+            "id": "2",
+            "name": "Bilgisayar",
+            "description": "Bilgisayar kategori ürünleri"
+        },
+        {
+            "id": "3",
+            "name": "Beyaz Eşya",
+            "description": "Beyaz Eşya kategori ürünleri"
+        }
+    ]
+}
